@@ -1,0 +1,75 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Login page</title>
+    <link rel="stylesheet" href="~/css/signup.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <div class="pp" id="top">
+        <div class="ic">
+            <h2>Sign Up</h2>
+            <form asp-action="Signup">
+                <div class="field" >
+                    <span class="fa fa-user"></span>
+                    <input type="text" required placeholder="Enter Your Name" name ="userName" >
+                </div>
+                <div class="field space">
+                    <span class="fa fa-envelope"></span>
+                    <input type="text" required placeholder="Enter your Email" name="userEmail">
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" class="pass-key" required placeholder="Create Password" name="userPassword">
+                    <span class="show">SHOW</span>
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" class="pass-key" required placeholder="Confirm Password">
+                    <span class="show">SHOW</span>
+                </div>
+                <p style="color: red"> @ViewBag.Message  </p>
+                @{
+                    ViewBag.Message = null;
+                }
+                <div class="field space">
+                    <input type="submit" value="Sign Up">
+                </div>
+            </form>
+            <div class="login">
+                Or login with
+            </div>
+            <div class="links">
+                <div class="facebook">
+                    <i class="fab fa-facebook-f"><span>Facebook</span></i>
+                </div>
+                <div class="instagram">
+                    <i class="fab fa-instagram"><span>Instagram</span></i>
+                </div>
+            </div>
+            <div class="login">
+                Already have an account?
+                <a asp-area="" asp-controller="Authentication" asp-action="signin">Login</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const pass_field = document.querySelector('.pass-key');
+        const showBtn = document.querySelector('.show');
+        showBtn.addEventListener('click', function () {
+            if (pass_field.type === "password") {
+                pass_field.type = "text";
+                showBtn.textContent = "HIDE";
+                showBtn.style.color = "#3498db";
+            } else {
+                pass_field.type = "password";
+                showBtn.textContent = "SHOW";
+                showBtn.style.color = "#222";
+            }
+        });
+    </script>
+</body>
+</html>

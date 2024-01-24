@@ -1,0 +1,685 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lightbox.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\css\\templatemo-hexashop.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo-hexashop.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\Banshai.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Banshai.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\Banshai_red.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Banshai_red.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\Indoor plant.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Indoor plant.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\IndoorBB.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\IndoorBB.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\IndoorBloomScape.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\IndoorBloomScape.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\Indoor_black.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Indoor_black.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\PlanterB.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\PlanterB.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\PlanterBlush.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\PlanterBlush.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\about-left-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about-left-image.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\about-us-page-heading.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about-us-page-heading.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\baner-right-image-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\baner-right-image-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\baner-right-image-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\baner-right-image-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\baner-right-image-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\baner-right-image-03.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\baner-right-image-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\baner-right-image-04.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\bonsaiBB.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bonsaiBB.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\explore-image-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\explore-image-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\explore-image-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\explore-image-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\instagram-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\instagram-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\instagram-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-03.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\instagram-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-04.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\instagram-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-05.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\instagram-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram-06.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\kid-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\kid-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\kid-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\kid-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\kid-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\kid-03.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\left-banner-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\left-banner-image.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\men-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\men-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\men-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\men-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\men-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\men-03.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\assets\\images\\next.png"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\products-page-heading.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\products-page-heading.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\roundPlanterB.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\roundPlanterB.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\service-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\service-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\service-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service-03.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\single-product-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\single-product-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\single-product-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\single-product-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\team-member-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team-member-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\team-member-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team-member-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\team-member-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team-member-03.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\white-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\white-logo.png"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\women-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\women-01.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\women-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\women-02.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\images\\women-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\women-03.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\accordions.js",
+      "PackagePath": "staticwebassets\\assets\\js\\accordions.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\datepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\datepicker.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\imgfix.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imgfix.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\jquery-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-2.1.0.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lightbox.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\quantity.js",
+      "PackagePath": "staticwebassets\\assets\\js\\quantity.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\scrollreveal.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scrollreveal.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\slick.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\09d9488a-da4a-4be6-9ea4-b45363c771cb_weeping.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\09d9488a-da4a-4be6-9ea4-b45363c771cb_weeping.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\114099cf-1e7b-4429-bff9-868b47126ac4_Fiddle Leaf.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\114099cf-1e7b-4429-bff9-868b47126ac4_Fiddle Leaf.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\28d044f3-089a-4a74-8c54-aaee9daafea0_roundPlanterW.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\28d044f3-089a-4a74-8c54-aaee9daafea0_roundPlanterW.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\3892e51e-3df1-415c-9356-dd01e096557b_Banshai_red.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\3892e51e-3df1-415c-9356-dd01e096557b_Banshai_red.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\46d3864e-78f7-41ad-adab-9af38f3f2e90_Banshai.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\46d3864e-78f7-41ad-adab-9af38f3f2e90_Banshai.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\5f10a6c1-46fa-48f1-82a5-36bfba24d5f1_PlanterB.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\5f10a6c1-46fa-48f1-82a5-36bfba24d5f1_PlanterB.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\894ba8cd-bee0-41e8-b06d-438f158a4377_PlanterBlush.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\894ba8cd-bee0-41e8-b06d-438f158a4377_PlanterBlush.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\9259df0f-46c8-4248-938c-353dce19529d_Yucca.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\9259df0f-46c8-4248-938c-353dce19529d_Yucca.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\97ba5948-ca39-4992-9a03-cc3d741fee2d_Hangging.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\97ba5948-ca39-4992-9a03-cc3d741fee2d_Hangging.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\abad0953-e372-4ac6-bb3e-4adf03973ff7_roundPlanterW.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\abad0953-e372-4ac6-bb3e-4adf03973ff7_roundPlanterW.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\c16f56c4-51e6-4c48-a3cc-5f3215af0c10_Yucca.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\c16f56c4-51e6-4c48-a3cc-5f3215af0c10_Yucca.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\d1b17890-ac82-4fea-bd27-f2d92e692b19_PlanterW.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\d1b17890-ac82-4fea-bd27-f2d92e692b19_PlanterW.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\e71ea4c2-27b3-479e-aa7e-6988dcd05f4b_Bird.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\e71ea4c2-27b3-479e-aa7e-6988dcd05f4b_Bird.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\e7c45099-99fd-4c8d-b962-e1357ef18f79_Banshai2.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\e7c45099-99fd-4c8d-b962-e1357ef18f79_Banshai2.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\charagachImages\\f6d3cfcc-ce80-400f-9cbb-dfce218adc9f_Swiss Cheese.jpg",
+      "PackagePath": "staticwebassets\\charagachImages\\f6d3cfcc-ce80-400f-9cbb-dfce218adc9f_Swiss Cheese.jpg"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\css\\adminLayout.css",
+      "PackagePath": "staticwebassets\\css\\adminLayout.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\css\\cartstyle.css",
+      "PackagePath": "staticwebassets\\css\\cartstyle.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\css\\signin.css",
+      "PackagePath": "staticwebassets\\css\\signin.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\css\\signup.css",
+      "PackagePath": "staticwebassets\\css\\signup.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\cse\\Projects\\mvc project\\CharaGach\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CharaGach.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CharaGach.props",
+      "PackagePath": "build\\CharaGach.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CharaGach.props",
+      "PackagePath": "buildMultiTargeting\\CharaGach.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CharaGach.props",
+      "PackagePath": "buildTransitive\\CharaGach.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    ViewData["Title"] = "Login Page";
+}
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="pp" id="top">
+        <div class="ic">
+            <h4>Add Plants</h4>
+            <form asp-action="AddPlant" enctype="multipart/form-data">
+                <div class="field">
+                    <input type="text" required placeholder="Enter Plant Name" name="plantName">
+                </div>
+                <div class="field space">
+                    <input type="text" required placeholder="Enter plant Details" name="plantDetails">
+                </div>
+                <div class="field">
+                    <input type="text" required placeholder="Enter plant type" name="plantType">
+                </div>
+                <div class="field space">
+                    <input type="text" required placeholder="Enter price" name="plantPrice">
+                </div>
+                <div class="field">
+                    <input type="text" required placeholder="Enter quantity" name="plantQuantity">
+                </div>
+                <div class="field space">
+                    <input type="text" required placeholder="Enter plant size" name="plantSize">
+                </div>
+                <div class="field">
+                    <input type="file" required placeholder="Enter Image Path" name="photo" accept="image/*" />
+                </div>
+
+                <p style="color: red"> @ViewBag.Message  </p>
+                @{
+                    ViewBag.Message = null;
+                }
+                <div class="field space">
+                    <input type="submit" value="Add Product">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+

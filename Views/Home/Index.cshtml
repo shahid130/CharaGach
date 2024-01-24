@@ -1,0 +1,331 @@
+﻿@model IEnumerable<CharaGach.Models.Plants>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!-- ***** Main Banner Area Start ***** -->
+<div class="main-banner" id="top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content">
+                    <div class="thumb">
+                        <div class="inner-content">
+                            <h4>We Are CharaGach</h4>
+                            <span>Here you can find your favorite plants</span>
+                            <div class="main-border-button">
+                                <a asp-area="" asp-controller="Home" asp-action="Products">Purchase Now!</a>
+                            </div>
+                        </div>
+                        <img src="~/assets/images/Indoor_black.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>Indoor</h4>
+                                        <span>Best Indoor Plants</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>Indoor</h4>
+                                            <p>Choose your indoor plants</p>
+                                            <div class="main-border-button">
+                                                <a asp-area="" asp-controller="Home" asp-action="Index" asp-fragment="men">Discover More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="~/assets/images/IndoorBB.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>Bonshai</h4>
+                                        <span>Best Bonsai for you</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>Bonsai</h4>
+                                            <p>Explore the Bonsai</p>
+                                            <div class="main-border-button">
+                                                <a asp-area="" asp-controller="Home" asp-action="Index" asp-fragment="women">Discover More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="~/assets/images/bonsaiBB.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>Planter</h4>
+                                        <span>Best Planter For you</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>Planter</h4>
+                                            <p>Explore more</p>
+                                            <div class="main-border-button">
+                                                <a asp-controller="Home" asp-action="Index" asp-fragment="kids">Discover More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="~/assets/images/PlanterBlush.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>Accessories</h4>
+                                        <span>Best Trend Accessories</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>Accessories</h4>
+                                            <p>All products Here</p>
+                                            <div class="main-border-button">
+                                                <a asp-area="" asp-controller="Home" asp-action="Products">Discover More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="~/assets/images/baner-right-image-04.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Main Banner Area End ***** -->
+
+
+        
+
+<!-- ***** Men Area Starts ***** -->
+<section class="section" id="men">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Indoor Plant's Latest</h2>
+                    <span>Details to details is what makes Hexashop different from the other themes.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="men-item-carousel">
+                    <div class="owl-men-item owl-carousel">
+
+                        @foreach (var item in Model)
+                        {
+                            if (item.plantType.Equals("Indoor"))
+                            {
+
+
+                                <div class="item">
+                                    <div class="thumb">
+                                        <div class="hover-content">
+                                            <ul>
+                                                <li><a asp-area="" asp-controller="Cart" asp-action="PlantDetails" asp-route-id="@item.plantID" ><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="~/charagachImages/@Html.DisplayFor(modelItem => item.plantImagePath)"  alt="" />
+                                    </div>
+                                    <div class="down-content">
+                                        <h4>@Html.DisplayFor(modelItem => item.plantName)</h4>
+                                        <span>$@Html.DisplayFor(modelItem => item.plantPrice)</span>
+                                        <ul class="stars">
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Men Area Ends ***** -->
+<!-- ***** Women Area Starts ***** -->
+<section class="section" id="women">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Bonsai's Latest</h2>
+                    <span>Details to details is what makes Hexashop different from the other themes.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="women-item-carousel">
+                    <div class="owl-women-item owl-carousel">
+                        @foreach (var item in Model)
+                        {
+                            if (item.plantType.Equals("Bonsai"))
+                            {
+                                <div class="item">
+                                    <div class="thumb">
+                                        <div class="hover-content">
+                                            <ul>
+                                                <li><a asp-area="" asp-controller="Cart" asp-action="PlantDetails" asp-route-id="@item.plantID" ><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="~/charagachImages/@Html.DisplayFor(modelItem => item.plantImagePath)"  alt="" />
+                                    </div>
+                                    <div class="down-content">
+                                        <h4>@Html.DisplayFor(modelItem => item.plantName)</h4>
+                                        <span>$@Html.DisplayFor(modelItem => item.plantPrice)</span>
+                                        <ul class="stars">
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Women Area Ends ***** -->
+
+<!-- ***** Kids Area Starts ***** -->
+<section class="section" id="kids">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Planter's Latest</h2>
+                    <span>Details to details is what makes Hexashop different from the other themes.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="kid-item-carousel">
+                    <div class="owl-kid-item owl-carousel">
+                        @foreach (var item in Model)
+                        {
+                            if (item.plantType.Equals("Planter"))
+                            {
+                                <div class="item">
+                                    <div class="thumb">
+                                        <div class="hover-content">
+                                            <ul>
+                                                <li><a asp-area="" asp-controller="Cart" asp-action="PlantDetails" asp-route-id="@item.plantID"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="~/charagachImages/@Html.DisplayFor(modelItem => item.plantImagePath)" alt="" />
+                                    </div>
+                                    <div class="down-content">
+                                        <h4>@Html.DisplayFor(modelItem => item.plantName)</h4>
+                                        <span>$@Html.DisplayFor(modelItem => item.plantPrice)</span>
+                                        <ul class="stars">
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Kids Area Ends ***** -->
+<!-- ***** Explore Area Starts ***** -->
+<section class="section" id="explore">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content">
+                    <h2>Explore Our Products</h2>
+                    <span>You can change our product anytime</span>
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i><p>You are not allowed to use our plant's photo on any other website.</p>
+                    </div>
+                    <p>There are a lot of plants and planter in this CharaGach website</p>
+                    <p> Please tell your friends about our great website. Thank you.</p>
+                    <div class="main-border-button">
+                        <a asp-area="" asp-controller="Home" asp-action="Products" >Discover More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="leather">
+                                <h4>Rounder Planter</h4>
+                                <span>Latest Collection</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="first-image">
+                                <img src="~/assets/images/roundPlanterB.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="second-image">
+                                <img src="~/assets/images/PlanterB.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="types">
+                                <h4>Different Types</h4>
+                                <span>Over 304 Products</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

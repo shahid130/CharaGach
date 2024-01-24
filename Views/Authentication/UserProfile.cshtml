@@ -1,0 +1,55 @@
+﻿@model IEnumerable<CharaGach.Models.Users>
+
+<section class="section" id="men">
+    <div class="container">
+
+        <h3>Account Details</h3>
+
+        <table class="table">
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.userEmail == Variable.userEmail_var)
+                    {
+                        <tr>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                @Html.DisplayFor(modelItem => item.userName)
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Email
+                            </th>
+                            <th>
+                                @Html.DisplayFor(modelItem => item.userEmail)
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Number
+                            </th>
+                            <th>
+                                @Html.DisplayFor(modelItem => item.userNumber)
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Adress
+                            </th>
+                            <th>
+                                @Html.DisplayFor(modelItem => item.userAdress)
+                            </th>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p><a asp-area="" asp-controller="Authentication" asp-action="Logout">Logout</a></p>
+    </div>
+</section>
