@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CharaGach.Models.Plants>
+
+@{
+    ViewData["Title"] = "Plant Details";
+}
+<section class="section" id="women">
+    <h1>Plant Details</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Details
+                </th>
+                <th>
+                    Type
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Size
+                </th>
+                <th>
+                    Image
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                if(item.plantID==Variable.plantId_var)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.plantName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.plantDetails)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.plantType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.plantPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.plantSize)
+                    </td>
+                    <td>
+                        <img src="~/charagachImages/@Html.DisplayFor(modelItem => item.plantImagePath)" style="width:100px; height:100px" />
+                    </td>
+                    <td>
+                        <a asp-action="CartView" asp-route-id="@item.plantID">Add to cart</a>
+                    </td>
+                </tr>
+                }
+            }
+        </tbody>
+    </table>
+</section>
