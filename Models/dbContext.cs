@@ -12,5 +12,7 @@ namespace CharaGach.Models
         public DbSet<Users> userInfo { get; set; }
         public DbSet<Admins> adminInfo { get; set; }
         public DbSet<Plants> plants { get; set; } 
+        public DbSet<CartModel> cart{ get; set; }
+        public DbSet<Order> orders { get; set; }
     }
 }

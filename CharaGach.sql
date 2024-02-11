@@ -17,7 +17,6 @@ constraint userEmail check(userEmail like '%_@__%.__%'),
 select * from userInfo
 
 drop table adminInfo
-
 create table adminInfo
 (
 adminID int PRIMARY KEY Identity(1,1),
@@ -60,9 +59,10 @@ select * from orders
 drop table cart
 create table cart
 (
+cartID int PRIMARY KEY Identity(1,1),
 userID int FOREIGN KEY REFERENCES userInfo(userID) ,
-plantID int FOREIGN KEY REFERENCES plants(plantID),
-plantAmount varchar(25) null,
+plantID int FOREIGN KEY REFERENCES plants(plantID) unique,
+plantAmount int ,
 )
 select * from cart
 

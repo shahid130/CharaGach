@@ -13,17 +13,8 @@ namespace CharaGach.Models
 
         public static int Counter { get; set; }
 
-        public struct CartStruct
-        {
-            public int userID;
-            public int plantId;
-            public string cartPlantName;
-            public string cartPlantPath;
-            public int amount;
-            public int plantprice;
-        }
+        public static decimal TotalPrice { get; set;}
 
-        HashSet<CartStruct> hs;
 
     }
 }

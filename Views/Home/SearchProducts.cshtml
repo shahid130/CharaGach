@@ -4,7 +4,7 @@
     ViewData["Title"] = "searchProducts";
 }
 
-
+<section class="section" id="kids">
 <section class="section" id="products">
     <div class="container">
         <div class="row">
@@ -33,8 +33,8 @@
                                 <ul>
                                     <li><a asp-area="" asp-controller="Cart" asp-action="PlantDetails" asp-route-id="@item.plantID"><i class="fa fa-eye"></i></a></li>
                                     <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a asp-area="" asp-controller="Home" asp-action="Products" asp-route-id="@item.plantID"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
+                                        <li><a asp-area="" asp-controller="Home" asp-action="AddCart" asp-route-id="@item.plantID"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
                             </div>
                             <img src="~/charagachImages/@Html.DisplayFor(modelItem => item.plantImagePath)" alt="" />
                         </div>
@@ -76,4 +76,5 @@
             </div>
         </div>
     </div>
+</section>
 </section>

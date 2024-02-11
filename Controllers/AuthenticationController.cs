@@ -19,11 +19,11 @@ namespace CharaGach.Controllers
         public IActionResult UserProfile()
         {
             return View(entity.userInfo.ToList());
-            //return View();
         }
         [HttpGet]
         public IActionResult Logout()
         {
+            Variable.TotalPrice = 0;
             Variable.authentication_users = 0;
             return RedirectToAction("Index", "Home");
         }
@@ -47,14 +47,14 @@ namespace CharaGach.Controllers
             {
                 
                 var userVarification = entity.userInfo.Any(u => u.userEmail.Equals(s.userEmail) && u.userPassword.Equals(s.userPassword));
-                
+                var varuserID = entity.userInfo.FirstOrDefault(p => p.userEmail == s.userEmail);
 
                 if (userVarification)
                 {
                     ViewBag.profile = "Profile";
-                    Variable.authentication_users = 1;
+                    Variable.authentication_users = varuserID.userID;
                     Variable.userEmail_var = s.userEmail;
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Products", "Home");
                 }
                 else
                 {
@@ -72,8 +72,9 @@ namespace CharaGach.Controllers
                     }
                 }
             }
-            catch
+            catch ( Exception ex)
             {
+                Debug.WriteLine("Error: " + ex.Message);
                 ViewBag.Message = "Fill Up this form carefully";
             }
             return View();
@@ -98,7 +99,8 @@ namespace CharaGach.Controllers
             }
             catch (Exception ex)
             {
-                if(s.userPassword.Length<6)
+                Debug.WriteLine("Error: " + ex.Message);
+                if (s.userPassword.Length<6)
                 {
                     ViewBag.Message = "Minimum Password Length 8 Character";
                 }
@@ -107,8 +109,5 @@ namespace CharaGach.Controllers
             }
             return View();
         }
-
-        
-        
     }
 }
