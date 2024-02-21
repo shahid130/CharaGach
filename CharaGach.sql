@@ -16,6 +16,7 @@ constraint userEmail check(userEmail like '%_@__%.__%'),
 
 select * from userInfo
 
+
 drop table adminInfo
 create table adminInfo
 (

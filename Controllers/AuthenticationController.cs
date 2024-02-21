@@ -52,7 +52,10 @@ namespace CharaGach.Controllers
                 if (userVarification)
                 {
                     ViewBag.profile = "Profile";
-                    Variable.authentication_users = varuserID.userID;
+                    if(varuserID != null)
+                    {
+						Variable.authentication_users = varuserID.userID;
+					}
                     Variable.userEmail_var = s.userEmail;
                     return RedirectToAction("Products", "Home");
                 }

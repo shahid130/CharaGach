@@ -66,50 +66,12 @@ namespace CharaGach.Controllers
             return RedirectToAction("CartView", "Cart");
         }
 
-        public IActionResult UserProfile()
-        {
-            return View(entity.userInfo.ToList());
-        }
-
         public IActionResult PlantDetails(int id)
         {
             Variable.plantId_var =  id;
             return View(entity.plants.ToList());
         }
-
-        public IActionResult PlaceOrder()
-        {
-
-			if (Variable.authentication_users>0)
-            {
-				var PlantsData = entity.plants.ToList();
-				var CartData = entity.cart.ToList();
-                var UsersData = entity.userInfo.ToList();
-
-				var plantViewModel = new PlantsView
-				{
-					plantsData = PlantsData
-				};
-
-				var cartViewModel = new CartView
-				{
-					cartsData = CartData
-				};
-
-				var userViewModel = new UserView
-				{
-					usersData = UsersData
-				};
-
-				return View(Tuple.Create(plantViewModel, cartViewModel, userViewModel));
-			}
-            else
-            {
-                return RedirectToAction("Signin", "Authentication");
-            }
-        }
-
-        [HttpGet]
+        
         public IActionResult DeletePlant(int id, CartModel cm)
         {
             var plantToDelete = entity.cart.FirstOrDefault(p => p.plantID == id);
@@ -121,11 +83,62 @@ namespace CharaGach.Controllers
             return RedirectToAction("CartView", "Cart");
         }
 
-
-        public IActionResult ConfirmedOrder(Order o)
+        public IActionResult PlaceOrder()
         {
+
+            if (Variable.authentication_users > 0)
+            {
+                var PlantsData = entity.plants.ToList();
+                var CartData = entity.cart.ToList();
+                var UsersData = entity.userInfo.ToList();
+
+                var plantViewModel = new PlantsView
+                {
+                    plantsData = PlantsData
+                };
+
+                var cartViewModel = new CartView
+                {
+                    cartsData = CartData
+                };
+
+                var userViewModel = new UserView
+                {
+                    usersData = UsersData
+                };
+                return View(Tuple.Create(plantViewModel, cartViewModel, userViewModel));
+            }
+            else
+            {
+                return RedirectToAction("Signin", "Authentication");
+            }
+        }
+
+        public IActionResult ConfirmedOrder(Order o, UpdateUsers u)
+        {
+            if(Variable.TotalPrice ==0) {
+				return RedirectToAction("Products", "Home");
+			}
+
             try
             {
+
+
+                var userItem = entity.userInfo.FirstOrDefault(p => p.userID == Variable.authentication_users);
+                if (userItem != null)
+                {
+                    if (u.userAdress != null && u.userNumber != null)
+                    {
+                        userItem.userNumber = u.userNumber;
+                        userItem.userAdress = u.userAdress;
+                        entity.SaveChanges();
+                    }
+                    else
+                    {
+						return RedirectToAction("PlaceOrder", "Cart");
+                    }
+                }
+
                 var cartItems = entity.cart.Where(p => p.userID == Variable.authentication_users).ToList();
 
                 if (cartItems.Any())
@@ -147,8 +160,8 @@ namespace CharaGach.Controllers
                     entity.cart.RemoveRange(cartItems);
                     entity.SaveChanges();
                 }
-
-                return View();
+				
+				return View();
             }
             catch (Exception ex)
             {
