@@ -13,7 +13,8 @@ namespace CharaGach.Models
 
         public static int Counter { get; set; }
 
-      
+        public static decimal TotalPrice { get; set;}
+
 
     }
 }

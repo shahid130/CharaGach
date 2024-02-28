@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CharaGach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0133f8ee9d274a2b1f98b091d8f637a9c20dc43")]
 [assembly: System.Reflection.AssemblyProductAttribute("CharaGach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CharaGach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -257,3 +257,4 @@ G:\cse\Projects\mvc project\CharaGach\bin\Debug\net8.0\Microsoft.AspNetCore.Comp
 G:\cse\Projects\mvc project\CharaGach\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 G:\cse\Projects\mvc project\CharaGach\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 G:\cse\Projects\mvc project\CharaGach\bin\Debug\net8.0\Microsoft.JSInterop.dll
+G:\cse\Projects\mvc project\CharaGach\obj\Debug\net8.0\CharaGach.sourcelink.json

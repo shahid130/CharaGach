@@ -1,6 +1,5 @@
 
 	var sitePlusMinus = function() {
-		var totalPrice,price;
 		var value,
     		quantity = document.getElementsByClassName('quantity-container');
 
@@ -10,8 +9,6 @@
 	      var decrease = quantityContainer.getElementsByClassName('decrease')[0];
 			increase.addEventListener('click', function (e) { increaseValue(e, quantityAmount); });
 			decrease.addEventListener('click', function (e) { decreaseValue(e, quantityAmount); });
-			
-
 	    }
 
 	    function init() {
@@ -27,7 +24,7 @@
 
 	        value = isNaN(value) ? 0 : value;
 	        value++;
-	        quantityAmount.value = value;
+			quantityAmount.value = value;
 	    }
 
 	    function decreaseValue(event, quantityAmount) {
